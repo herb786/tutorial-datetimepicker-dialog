@@ -28,7 +28,6 @@ public class DateDialogFragment extends DialogFragment {
         int day = c.get(Calendar.DAY_OF_MONTH);
         return new DatePickerDialog(getActivity(),onDateSetListener,year, month, day);
     }
-
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
